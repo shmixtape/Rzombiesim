@@ -147,3 +147,4 @@ end
 --all event "bricks" are tagged, this script can function with one copy in the "serverscriptstorage" file
 --we don't want zombies to trigger this as they're a possible "spawn" and they'll trigger it if they spawn inside, hence the check for zombie and return end for it
 --areatrans is a way to make the zombies spawn randomly around an area based off the center of the event brick
+--wait(n) function waits n=seconds within the script at that line before moving to the next line
