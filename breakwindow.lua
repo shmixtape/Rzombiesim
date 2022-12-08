@@ -7,6 +7,6 @@ prompt.Triggered:Connect(function()
 	for i,v in pairs(script.Parent.Break:GetChildren()) do
 		v.Anchored = false
 	end
-	wait(5)--How long till it destroys
+	wait(5)--How long till it destroys, need to add a destroy function
 end)
 
