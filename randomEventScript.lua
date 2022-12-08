@@ -142,3 +142,8 @@ while wait(.1) do
 					print("Working!!!!!!!!!!!!")-- Reset attribute
 				end)
 end
+--collection service allows for the script to pull the humanoid list
+--humanoid list pulls all models with the "humanoid" object as a child of themselves
+--all event "bricks" are tagged, this script can function with one copy in the "serverscriptstorage" file
+--we don't want zombies to trigger this as they're a possible "spawn" and they'll trigger it if they spawn inside, hence the check for zombie and return end for it
+--areatrans is a way to make the zombies spawn randomly around an area based off the center of the event brick
